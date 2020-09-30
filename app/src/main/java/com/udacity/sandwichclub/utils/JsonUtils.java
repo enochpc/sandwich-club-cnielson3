@@ -78,7 +78,7 @@ public class JsonUtils {
             JSONArray ingredientsArray = jsonResponse.getJSONArray(KEY_INGREDIENTS);
 
             // If there are results in the ingredients array
-            if (alsoKnownAsArray.length() > 0) {
+            if (ingredientsArray.length() > 0) {
 
                 // For each ingredients in the ingredientsArray.
                 for (int i = 0; i < ingredientsArray.length(); i++) {
